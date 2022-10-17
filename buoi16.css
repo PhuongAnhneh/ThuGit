@@ -1,0 +1,15 @@
+.menu {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.todo_list {
+    color: pink;
+}
+.doing_list {
+    color:bisque
+}
+.done_list {
+    color:rgb(248, 223, 122)
+}

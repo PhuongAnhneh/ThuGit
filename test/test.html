@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            background: #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            width: 300px;
+            height: 200px;
+            background: brown;
+            margin-bottom: 24px;
+            position: relative;
+        }
+        button {
+            cursor: pointer;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="box"></div>
+    <button>Click!</button>
+    <script>
+        let box = document.querySelector('.box');
+        let but = document.querySelector('button');
+        var a = 0;
+        
+        but.addEventListener('click', () => {
+            a += 100
+            box.style.marginLeft = `${a}px`
+        })
+    </script>
+</body>
+</html>

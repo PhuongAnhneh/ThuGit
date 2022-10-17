@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(84, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculator{
+    margin: 2% auto;
+    border-radius: 10px;
+    width: 45%;
+    height: 550px;
+    background-color: white;
+}
+.tip {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2% 0;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tip p {
+    background-color: black;
+}
+.title {
+    padding-left: 10%;
+    background-color: white;
+    position: relative;
+}
+.title div {
+    background-color: white;
+}
+.menu1 p {
+    background-color: white;
+    margin: 2% 0;
+}
+.menu p:nth-child(1) {
+    margin: 0 0;
+    padding-top: 4%;
+}
+.menu p{
+    background-color: white;
+}
+select{
+    margin: 2% 0;
+    background-color: white;
+    width: 85%;
+    padding: 1.5% 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    appearance: none;
+}
+select option:nth-child(1) {
+    text-align: center;
+    padding: 0;
+}
+select{
+
+}
+select option:nth-child(1):focus {
+    text-align: center;
+}
+option{
+    background-color: white;
+    text-align: justify;
+}
+input{
+    margin: 2% 0;
+    padding: 1.5% 3%;
+    background-color: white;
+    width: 65%;
+}
+button{
+    width: 40%;
+    background-color: brown;
+    font-size: 20px;
+    padding: 2% 4%;
+    color: white;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
